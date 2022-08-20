@@ -1,0 +1,104 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="Yemek_Tarifi_Sitesi_2._0.Admin" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="ADMIN2.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        
+        .auto-style7 {
+            text-align: center;
+            font-size: 15pt;
+            color: #DFF6FF;
+        }
+
+        .auto-style8 {
+            width: 100%;
+        }
+        .auto-style9 {
+            text-align: left;
+        }
+        .auto-style10 {
+            text-decoration: underline;
+        }
+        .auto-style11 {
+            text-align: left;
+            height: 35px;
+        }
+        .auto-style12 {
+            border: 0px solid #456879;
+            border-radius: 10px;
+            height: 362px;
+            width: 200px;
+            float: left;
+        }
+        .auto-style13 {
+            border: 2px solid #456879;
+            border-radius: 10px;
+            margin-left: 0px;
+            margin-top: 0px;
+        }
+        </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div style="height: 150px; width: 700px; margin-left: 300px; background-color: #1363DF" class="tb7">
+            <asp:Image ID="Image1" runat="server" CssClass="auto-style13" Height="145px" ImageUrl="~/Resimler/MoXhwt.jpg" Width="695px" />
+        </div>
+        <div style="height: 20px; width: 700px; margin-left: 300px;">&nbsp;</div>
+        <div style="height: 300px; width: 700px; margin-left: 300px;">
+            <div style="background-color: #1363DF; font-family: Inter;" class="auto-style12">
+                <div class="auto-style7">
+                    <table class="auto-style8" style="border-bottom-style: none; border-bottom-width: thin; border-bottom-color: #C0C0C0">
+                        <tr>
+                            <td class="auto-style10" style="border-bottom-style: none; border-width: thin; border-color: #C0C0C0"><strong>MENÜLER</strong></td>
+                        </tr>
+                        <tr>
+                            <td class="auto-style9" style="border-bottom-style: none; border-width: thin; border-color: #C0C0C0">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td class="auto-style9" style="border-bottom: medium groove #CCCCCC; color: white; border-left-color: #C0C0C0; border-left-width: thin; border-right-color: #C0C0C0; border-right-width: thin; border-top-color: #C0C0C0; border-top-width: thin;"><a href="Admin.aspx"> Ana Sayfa</a></td>
+                        </tr>
+                        <tr>
+                            <td class="auto-style9" style="border-bottom-style: groove; color: white; font-size: 15px; border-width: thin thin medium thin; border-color: #C0C0C0 #C0C0C0 #CCCCCC #C0C0C0"><a href="Kategoriler.aspx"> Kategoriler</a></td>
+                        </tr>
+                        <tr>
+                            <td class="auto-style9" style="border-bottom-style: groove; border-width: thin thin medium thin; border-color: #C0C0C0 #C0C0C0 #CCCCCC #C0C0C0"><a href="AdminYemekler.aspx">Yemekler</a> </td>
+                        </tr>
+                        <tr>
+                            <td class="auto-style9" style="border-bottom-style: groove; border-width: thin thin medium thin; border-color: #C0C0C0 #C0C0C0 #CCCCCC #C0C0C0"><a href="AdminYorumlar.aspx">Yorumlar</a> </td>
+                        </tr>
+                        <tr>
+                            <td class="auto-style9" style="border-bottom-style: groove; border-width: thin thin medium thin; border-color: #C0C0C0 #C0C0C0 #CCCCCC #C0C0C0"><a href="AdminMesajlar.aspx">Mesajlar</a></td>
+                        </tr>
+                        <tr>
+                            <td class="auto-style9" style="border-bottom-style: groove; border-width: thin thin medium thin; border-color: #C0C0C0 #C0C0C0 #CCCCCC #C0C0C0"><a href="AdminGununYemegi.aspx">Günün Tarifi</a> </td>
+                        </tr>
+                        <tr>
+                            <td class="auto-style9" style="border-bottom-style: groove; border-width: thin thin medium thin; border-color: #C0C0C0 #C0C0C0 #CCCCCC #C0C0C0"><a href="AdminTarifler.aspx"> Tarifler</a></td>
+                        </tr>
+                        <tr>
+                            <td class="auto-style11" style="border-bottom-style: groove; border-width: thin thin medium thin; border-color: #C0C0C0 #C0C0C0 #CCCCCC #C0C0C0"><a href="AdminHakkimizda.aspx">Hakkımızda</a></td>
+                        </tr>
+                        </table>
+                &nbsp;&nbsp;&nbsp;
+                </div>
+            </div>
+            <div style="height: auto; float: left; width: 450px; background-color: #47B5FF; margin-left: 50px; font-family: Roboto;" class="tb7">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+
+        </div>
+
+    </form>
+</body>
+</html>
+
+
+
+

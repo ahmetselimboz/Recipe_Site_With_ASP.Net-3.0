@@ -1,0 +1,40 @@
+﻿
+a:link {
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: bold;
+}
+
+
+a:hover {
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.tb5 {
+    border: 2px solid #456879;
+    border-radius: 10px;
+    height: 22px;
+    width: 230px;
+}
+
+.tb6 {
+    border: 1px solid #456879;
+    border-radius: 5px;
+    height: 22px;
+    width: 230px;
+}
+
+.tb7 {
+    border: 0px solid #456879;
+    border-radius: 10px;
+    height: 22px;
+    width: 330px;
+}
+
+.th {
+    border: 0px
+}
+
